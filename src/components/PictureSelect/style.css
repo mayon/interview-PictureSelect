@@ -1,0 +1,32 @@
+.picture-select-total {
+  line-height: 50px;
+}
+
+.picture-select-list {
+  display: inline-flex;
+}
+
+.picture-select-item {
+  margin-right: 10px;
+  position: relative;
+}
+
+.picture-select-item .checkbox {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+
+  box-sizing: border-box;
+  display: block;
+  cursor: pointer;
+
+  width: 20px;
+  height: 20px;
+
+  background: white;
+  border: 1px solid rgb(9, 113, 241);
+}
+
+.picture-select-item.active .checkbox {
+  background: rgb(9, 113, 241);
+}
